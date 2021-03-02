@@ -1,0 +1,158 @@
+h1{
+	margin: 0;
+	padding: 25px;
+}
+
+h3{
+	font-family: Georgia;
+	text-align: center;
+}
+
+body{
+	padding-top:200px;
+}
+
+header{
+	background: #FFFAFA;
+}
+
+a{
+	text-decoration: none
+}
+
+.fixed-heading{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background:  #FFFAFA;
+    z-index: 999;
+}
+
+#single-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+#single-nav ul li a{
+	padding-right: 2em;
+	text-decoration: none;
+	font-family: 'Simonetta', cursive;
+	font-size: 15px;
+	color: #696969;
+}
+
+
+
+.mixed-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF0F5;
+}
+
+ul{
+	list-style: none;
+}
+
+/***************************************content***********************************/
+
+.content{
+	display: flex;
+	justify-content: space-around;
+}
+
+.questionmark p i{
+	padding: 70px;
+}
+
+form{
+	padding: 30px;
+}
+
+#name{
+	padding: 5px;
+	margin: 10px;
+	width: 500px;
+	position: relative;
+}
+
+#email{
+	padding: 5px;
+	margin: 10px;
+	width: 500px;
+	position: relative;
+}
+
+#message{
+	padding: 10px;
+	margin: 10px;
+	width: 500px;
+	height: 250px;
+	position: relative;
+}
+
+/*------------------------------------Footer-------------------------*/
+.footer-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF5EE;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.navigation{
+	display: block;
+	padding: 1em 0;
+}
+
+.navigation ul li{
+	padding: 0.5em 0;
+}
+
+.address{
+	display: block;
+	padding: 3em 0;
+}
+
+.address ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#heart{
+	text-align: center;
+}
+
+.social-footer{
+	display: block;
+	padding: 3em 0;
+	font-size: 15px;
+}
+
+.social-footer ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.social-footer ul li i{
+	padding-bottom: 0.5em;
+}
+
+.stay-in-touch{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}

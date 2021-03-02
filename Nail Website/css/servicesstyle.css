@@ -1,0 +1,202 @@
+html{
+	background-color: #FDF5E6;
+}
+
+ul{
+	list-style: none;
+}
+
+*a{
+	font-style: none;
+}
+
+body{
+	padding-top:200px;
+}
+
+h1{
+	text-align: center;
+	z-index: 999;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background: #FFFAFA;
+}
+
+.fixed-heading{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background:  #FFFAFA;
+    z-index: 999;
+}
+
+#single-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+#single-nav ul li a{
+	padding-right: 2em;
+	text-decoration: none;
+	font-family: 'Simonetta', cursive;
+	font-size: 15px;
+	color: #696969;
+}
+
+
+
+.mixed-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF0F5;
+}
+
+ul{
+	list-style: none;
+}
+
+/***********************************SERVICES**********************/
+h2{
+	text-align: center;
+	font-family: 'Arima Madurai', cursive;
+	font-weight: 800;
+	font-size: 40px;
+	color: #FFB6C1;
+	text-shadow: 2px 2px #DB7093;
+}
+
+h2 {
+   width: 100%; 
+   text-align: center; 
+   border-top: 1px dotted #DB7093;
+   border-bottom: 1px dotted #DB7093; 
+   line-height: 0.1em;
+   margin: 40px 0 30px; 
+
+}
+
+h2 span {  
+	background: #FDF5E6;
+    padding: 0 10px; 
+}
+
+.menu{
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+.services{
+	padding-left: 70px;
+}
+
+.menu ul li{
+	padding: 5px 0;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 20px;
+	color: #708090;
+}
+
+
+.why-choose-us {
+	display: flex;
+	margin-top: 40px;
+	background: #D3D3D3;
+	padding: 30px 0;
+	color: white;
+	margin-bottom: 40px;
+	padding-left: 30%;
+	border-radius: 50%;
+}
+
+.why-choose-us h3{
+	width: 30%;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 30px;
+}
+
+
+.why-choose-us p{
+	width: 30%;
+	font-family: 'Arima Madurai', cursive;
+}
+
+
+
+
+/***********************************FOOTER************************/
+.footer-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF5EE;
+	font-family: 'Philosopher', sans-serif;
+	margin-bottom: 0;
+}
+
+.navigation{
+	display: block;
+	padding: 1em 0;
+}
+
+.navigation ul li{
+	padding: 0.5em 0;
+}
+
+.address{
+	display: block;
+	padding: 3em 0;
+}
+
+.address ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#heart{
+	text-align: center;
+}
+
+.social-footer{
+	display: block;
+	padding: 3em 0;
+	font-size: 15px;
+}
+
+.social-footer ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.social-footer ul li i{
+	padding-bottom: 0.5em;
+}
+
+.stay-in-touch{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}

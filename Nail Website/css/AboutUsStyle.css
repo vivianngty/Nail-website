@@ -1,0 +1,170 @@
+body{
+	padding-top:200px;
+}
+
+h1{
+	text-align: center;
+	z-index: 999;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background: #FFFAFA;
+}
+
+.fixed-heading{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background:  #FFFAFA;
+    z-index: 999;
+}
+
+#single-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+#single-nav ul li a{
+	padding-right: 2em;
+	text-decoration: none;
+	font-family: 'Simonetta', cursive;
+	font-size: 15px;
+	color: #696969;
+}
+
+
+
+.mixed-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF0F5;
+}
+
+ul{
+	list-style: none;
+}
+/*********************************CONTENT********************************/
+
+.aboutus{
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-shrink: 1;
+}
+
+h2{
+	align-self: center;
+	font-family: 'Simonetta', cursive;
+	font-size: 30px;
+	padding-left: 80px;
+	color: #FF6347;
+}
+
+img{
+	border-radius: 50%;
+	align-self: center;
+}
+
+.aboutus p{
+	width: 30%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 90px;
+	line-height: 30px;
+	font-family: 'Simonetta', cursive;
+	color: #FA8072;
+
+
+}
+
+/*********************************REVIEW*********************************/
+
+
+#reviewone{
+	float: left;
+	width: 33%;
+	height: 280px;
+}
+
+#reviewtwo{
+	float: right;
+	width: 33%;
+	height: 280px;
+}
+
+
+/*********************************FOOTER*********************************/
+.footer-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF5EE;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.navigation{
+	display: block;
+	padding: 1em 0;
+}
+
+.navigation ul li{
+	padding: 0.5em 0;
+}
+
+.address{
+	display: block;
+	padding: 3em 0;
+}
+
+.address ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#heart{
+	text-align: center;
+}
+
+.social-footer{
+	display: block;
+	padding: 3em 0;
+	font-size: 15px;
+}
+
+.social-footer ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.social-footer ul li i{
+	padding-bottom: 0.5em;
+}
+
+.stay-in-touch{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}

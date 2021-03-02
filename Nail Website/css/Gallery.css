@@ -1,0 +1,196 @@
+h1{
+	margin: 0;
+	padding: 25px;
+}
+
+body{
+	padding-top:200px;
+}
+
+header{
+	background: #FFFAFA;
+}
+
+a{
+	text-decoration: none
+}
+
+.fixed-heading{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background:  #FFFAFA;
+    z-index: 999;
+}
+
+#single-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+#single-nav ul li a{
+	padding-right: 2em;
+	text-decoration: none;
+	font-family: 'Simonetta', cursive;
+	font-size: 15px;
+	color: #696969;
+}
+
+
+
+.mixed-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF0F5;
+}
+
+ul{
+	list-style: none;
+}
+
+/***************************************************************************/
+h2{
+	font-family: Georgia;
+	padding-bottom: 20px;
+	padding-left: 90px;
+	font-size: 2em;
+	display: inline-block;
+}
+
+h2{
+	text-align: center;
+}
+
+/*******************************IMAGES SLIDER*********************************/
+
+#slider{
+	overflow: hidden;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 30s slider infinite;
+}
+
+#slider figure img{
+	width: 5%;
+	float: left;
+	border-radius: 50%;
+}
+
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+
+	75%{
+		left: -300%;
+	}
+
+	80%{
+		left: -300%;
+	}
+
+	85%{
+		left: -400%;
+	}
+
+	90%{
+		left: -400%;
+	}
+
+	95%{
+		right: -400%;
+	}
+
+	100%{
+		right: -500%;
+	}
+}
+
+/******************************************Footer************************/
+
+.footer-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF5EE;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.navigation{
+	display: block;
+	padding: 1em 0;
+}
+
+.navigation ul li{
+	padding: 0.5em 0;
+}
+
+.address{
+	display: block;
+	padding: 3em 0;
+}
+
+.address ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#heart{
+	text-align: center;
+}
+
+.social-footer{
+	display: block;
+	padding: 3em 0;
+	font-size: 15px;
+}
+
+.social-footer ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.social-footer ul li i{
+	padding-bottom: 0.5em;
+}
+
+.stay-in-touch{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}

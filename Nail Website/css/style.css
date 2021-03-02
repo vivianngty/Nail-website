@@ -1,0 +1,220 @@
+
+
+html{
+	background-color: #FFFFFF;
+}
+
+body{
+	padding-top:60px;
+	padding-bottom: 40px;
+}
+
+/* Icon
+------------------------------------*/
+
+h1{
+	text-align: center;
+	z-index: 999;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background: #FFFAFA;
+}
+
+.fixed-heading{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    background:  #FFFAFA;
+    z-index: 999;
+}
+
+#single-nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFFFFF;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+#single-nav ul li a{
+	padding-right: 2em;
+	text-decoration: none;
+	font-family: 'Simonetta', cursive;
+	font-size: 15px;
+	color: #696969;
+}
+
+
+
+.mixed-menu{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF0F5;
+}
+
+ul{
+	list-style: none;
+}
+
+/********************************************************************/
+
+.flex-box-one{
+	display:flex;
+	flex-wrap: wrap;
+	background: #FFFAF0;
+	margin-top: 150px;
+	width: auto;
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-family: Georgia, serif;
+	max-width: 800px;
+  	width: 100%;
+  	padding: 80px;
+}
+
+.nail-cover-pic{
+	display: flex;
+	justify-content: flex-end;
+	opacity: 75%;
+	border-radius: 80%;
+	margin-top: 2.5em;
+}
+
+
+/**************************************************************************/
+
+.thumbnail img{
+	border-radius:30px;
+	border: 1px dotted #C0C0C0;
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 5em 18em;
+}
+
+.card {
+	flex: 0 1 calc(20% - 5em);
+	background: white;
+}
+
+.button{
+	font-family: 'Philosopher', sans-serif;
+	text-align: center;
+	text-decoration: bold;
+	background-color: #FFFFFF;
+	border: #FFDAB9 solid 3px;
+	padding: 0.4em;
+}
+
+.button a{
+	color: #808080;
+	cursor: crosshair;
+	text-decoration: bold;
+}
+
+.button a:visited{
+	color: #20B2AA;
+}
+
+.card-content {
+	padding: 2em;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	color: #8B4513;
+}
+
+.card-content p{
+	font-size: 95%;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.centered{
+	align-content: center;
+	
+}
+/****************************FOOTER*********************************/
+
+.footer-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background: #FFF5EE;
+	font-family: 'Philosopher', sans-serif;
+}
+
+.navigation{
+	display: block;
+	padding: 1em 0;
+}
+
+.navigation ul li{
+	padding: 0.5em 0;
+}
+
+.address{
+	display: block;
+	padding: 3em 0;
+}
+
+.address ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+#heart{
+	text-align: center;
+}
+
+.social-footer{
+	display: block;
+	padding: 3em 0;
+	font-size: 15px;
+}
+
+.social-footer ul li{
+	padding: 0.5em 0;
+	text-align: center;
+}
+
+.social-footer ul li i{
+	padding-bottom: 0.5em;
+}
+
+.stay-in-touch{
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
